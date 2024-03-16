@@ -1,10 +1,10 @@
-
-import Image from "next/image";
-
-import Header from "@/components/header/Header";
+import { Logo } from "@/assets/icon/index";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
-    <Header></Header>
+    <div>
+      <Header></Header>
+    </div>
   );
 }
