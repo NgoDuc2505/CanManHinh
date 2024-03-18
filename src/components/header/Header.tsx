@@ -13,7 +13,15 @@ function Header() {
   const textColor = "#fff";
   const isMobile = useMediaQuery(`(max-width: ${em(750)})`);
   return (
-    <Group px={isMobile ? "10px" : "20px"} py={isMobile ? "5px" : "15px"} style={styleCss} pos={"fixed"} top={0} left={0} >
+    <Group
+      px={isMobile ? "10px" : "20px"}
+      py={isMobile ? "5px" : "15px"}
+      style={styleCss}
+      pos={"fixed"}
+      top={0}
+      left={0}
+    >
+      <h2 className="p-4 pt-2">dkjf</h2>
       <Group w="20%">
         <Logo></Logo>
         <Text fz={20} fw={"bold"} c={textColor}>
